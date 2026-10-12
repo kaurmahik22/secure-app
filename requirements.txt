@@ -1,0 +1,7 @@
+# NOTE: these versions are intentionally a bit behind so your dependency scan
+# has real findings to document (e.g. Werkzeug < 3.0.3, gunicorn < 22.0.0).
+# Verify results with your scanner, then upgrade per README step 7 for a before/after.
+Flask==3.0.0
+Werkzeug==3.0.1
+gunicorn==21.2.0
+boto3==1.34.0
